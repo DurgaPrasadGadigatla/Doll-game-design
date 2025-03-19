@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll Dress-Up Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dress Up Your Doll!</h1>
+    <div id="questions">
+        <div class="question">
+            <p>1. What type of dress do you want?</p>
+            <img src="https://picsum.photos/100/100?random=1" onclick="selectOption('dress', 'https://picsum.photos/300/400?random=1')">
+            <img src="https://picsum.photos/100/100?random=2" onclick="selectOption('dress', 'https://picsum.photos/300/400?random=2')">
+            <img src="https://picsum.photos/100/100?random=3" onclick="selectOption('dress', 'https://picsum.photos/300/400?random=3')">
+        </div>
+        <div class="question">
+            <p>2. What hairstyle do you want?</p>
+            <img src="https://picsum.photos/100/100?random=4" onclick="selectOption('hair', 'https://picsum.photos/300/400?random=4')">
+            <img src="https://picsum.photos/100/100?random=5" onclick="selectOption('hair', 'https://picsum.photos/300/400?random=5')">
+            <img src="https://picsum.photos/100/100?random=6" onclick="selectOption('hair', 'https://picsum.photos/300/400?random=6')">
+        </div>
+        <div class="question">
+            <p>3. What color lipstick do you want?</p>
+            <img src="https://picsum.photos/100/100?random=7" onclick="selectOption('lipstick', 'https://picsum.photos/300/400?random=7')">
+            <img src="https://picsum.photos/100/100?random=8" onclick="selectOption('lipstick', 'https://picsum.photos/300/400?random=8')">
+            <img src="https://picsum.photos/100/100?random=9" onclick="selectOption('lipstick', 'https://picsum.photos/300/400?random=9')">
+        </div>
+        <div class="question">
+            <p>4. What hairband do you need?</p>
+            <img src="https://picsum.photos/100/100?random=10" onclick="selectOption('hairband', 'https://picsum.photos/300/400?random=10')">
+            <img src="https://picsum.photos/100/100?random=11" onclick="selectOption('hairband', 'https://picsum.photos/300/400?random=11')">
+            <img src="https://picsum.photos/100/100?random=12" onclick="selectOption('hairband', 'https://picsum.photos/300/400?random=12')">
+        </div>
+        <div class="question">
+            <p>5. What type of earrings do you want?</p>
+            <img src="https://picsum.photos/100/100?random=13" onclick="selectOption('earrings', 'https://picsum.photos/300/400?random=13')">
+            <img src="https://picsum.photos/100/100?random=14" onclick="selectOption('earrings', 'https://picsum.photos/300/400?random=14')">
+            <img src="https://picsum.photos/100/100?random=15" onclick="selectOption('earrings', 'https://picsum.photos/300/400?random=15')">
+        </div>
+        <div class="question">
+            <p>6. What type of ring do you want?</p>
+            <img src="https://picsum.photos/100/100?random=16" onclick="selectOption('ring', 'https://picsum.photos/300/400?random=16')">
+            <img src="https://picsum.photos/100/100?random=17" onclick="selectOption('ring', 'https://picsum.photos/300/400?random=17')">
+            <img src="https://picsum.photos/100/100?random=18" onclick="selectOption('ring', 'https://picsum.photos/300/400?random=18')">
+        </div>
+        <div class="question">
+            <p>7. What watch do you want?</p>
+            <img src="https://picsum.photos/100/100?random=19" onclick="selectOption('watch', 'https://picsum.photos/300/400?random=19')">
+            <img src="https://picsum.photos/100/100?random=20" onclick="selectOption('watch', 'https://picsum.photos/300/400?random=20')">
+            <img src="https://picsum.photos/100/100?random=21" onclick="selectOption('watch', 'https://picsum.photos/300/400?random=21')">
+        </div>
+        <div class="question">
+            <p>8. What purse do you want?</p>
+            <img src="https://picsum.photos/100/100?random=22" onclick="selectOption('purse', 'https://picsum.photos/300/400?random=22')">
+            <img src="https://picsum.photos/100/100?random=23" onclick="selectOption('purse', 'https://picsum.photos/300/400?random=23')">
+            <img src="https://picsum.photos/100/100?random=24" onclick="selectOption('purse', 'https://picsum.photos/300/400?random=24')">
+        </div>
+        <div class="question">
+            <p>9. What type of necklace do you want?</p>
+            <img src="https://picsum.photos/100/100?random=25" onclick="selectOption('necklace', 'https://picsum.photos/300/400?random=25')">
+            <img src="https://picsum.photos/100/100?random=26" onclick="selectOption('necklace', 'https://picsum.photos/300/400?random=26')">
+            <img src="https://picsum.photos/100/100?random=27" onclick="selectOption('necklace', 'https://picsum.photos/300/400?random=27')">
+        </div>
+        <div class="question">
+            <p>10. What type of eyeglasses do you want?</p>
+            <img src="https://picsum.photos/100/100?random=28" onclick="selectOption('eyeglass', 'https://picsum.photos/300/400?random=28')">
+            <img src="https://picsum.photos/100/100?random=29" onclick="selectOption('eyeglass', 'https://picsum.photos/300/400?random=29')">
+            <img src="https://picsum.photos/100/100?random=30" onclick="selectOption('eyeglass', 'https://picsum.photos/300/400?random=30')">
+        </div>
+    </div>
+    <button onclick="generateDoll()">Finish & See Your Doll!</button>
+    <div id="doll-result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
