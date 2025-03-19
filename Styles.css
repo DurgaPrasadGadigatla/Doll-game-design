@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.question {
+    margin: 20px 0;
+}
+.question img {
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.question img.selected {
+    border: 2px solid #ff00ff;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#doll-result {
+    margin-top: 20px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+    background: url('https://picsum.photos/300/400?random=0') no-repeat center;
+    background-size: contain;
+}
+#doll-result img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#doll-result img[src*="random=1"], #doll-result img[src*="random=2"], #doll-result img[src*="random=3"] { z-index: 1; } /* Dress */
+#doll-result img[src*="random=4"], #doll-result img[src*="random=5"], #doll-result img[src*="random=6"] { z-index: 2; } /* Hair */
+#doll-result img[src*="random=7"], #doll-result img[src*="random=8"], #doll-result img[src*="random=9"] { z-index: 3; } /* Lipstick */
+#doll-result img[src*="random=10"], #doll-result img[src*="random=11"], #doll-result img[src*="random=12"] { z-index: 4; } /* Hairband */
+#doll-result img[src*="random=13"], #doll-result img[src*="random=14"], #doll-result img[src*="random=15"] { z-index: 5; } /* Earrings */
+#doll-result img[src*="random=16"], #doll-result img[src*="random=17"], #doll-result img[src*="random=18"] { z-index: 6; } /* Ring */
+#doll-result img[src*="random=19"], #doll-result img[src*="random=20"], #doll-result img[src*="random=21"] { z-index: 7; } /* Watch */
+#doll-result img[src*="random=22"], #doll-result img[src*="random=23"], #doll-result img[src*="random=24"] { z-index: 8; } /* Purse */
+#doll-result img[src*="random=25"], #doll-result img[src*="random=26"], #doll-result img[src*="random=27"] { z-index: 9; } /* Necklace */
+#doll-result img[src*="random=28"], #doll-result img[src*="random=29"], #doll-result img[src*="random=30"] { z-index: 10; } /* Eyeglass */
